@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 from utils.document_loader import extract_text
 from utils.text_processor import clean_text, split_text
+
 from utils.embedding import EmbeddingModel
 from utils.vector_store import VectorStore
 from utils.local_llm import LocalLLMClient
